@@ -1,5 +1,5 @@
 const express = require('express');
-const db = require();
+const db = require('./knexfile');
 const helmet = require('helmet');
 const lodash = require('lodash');
 
